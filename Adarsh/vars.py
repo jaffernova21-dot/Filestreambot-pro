@@ -9,10 +9,10 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ''))
-    API_HASH = str(getenv('API_HASH', ''))
-    BOT_TOKEN = str(getenv('BOT_TOKEN'))
-    name = str(getenv('name', 'filetolinkbot'))
+    API_ID = int(getenv('35554205', ''))
+    API_HASH = str(getenv('7b56a1a17366fb67ba913ff0cbac6e67', ''))
+    BOT_TOKEN = str(getenv('8391677941:AAFDgz2N-zGIO1j7q6zXQlbSjIOMz-vmpb8'))
+    name = str(getenv('name', 'upload4u'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
@@ -25,7 +25,7 @@ class Var(object):
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', ''))
     if 'DYNO' in environ:
         ON_HEROKU = True
-        APP_NAME = str(getenv('APP_NAME'))
+        APP_NAME = str(getenv('Jaffer_upload'))
     
     else:
         ON_HEROKU = False
